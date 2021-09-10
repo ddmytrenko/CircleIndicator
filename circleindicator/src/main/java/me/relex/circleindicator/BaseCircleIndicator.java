@@ -21,7 +21,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.core.view.ViewCompat;
 
-class BaseCircleIndicator extends LinearLayout {
+public abstract class BaseCircleIndicator extends LinearLayout {
 
     private final static int DEFAULT_INDICATOR_WIDTH = 5;
 
